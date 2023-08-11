@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Information</title>
+</head>
+
+<body>
+    <h1>Course Information</h1>
+    <form action="/clp">
+        <div>
+            <label for="courseName">Course Name:</label>
+            <input typle="text" id="courseName" name="courseName" placeholder="Enter the Course Title" required>
+        </div>
+        <br>
+        <div>
+            <label for="courseDescription">Course Description:</label>
+            <textarea id="courseDescription" name="courseDescription"
+                placeholder="Enter the Course Description"></textarea>
+        </div>
+        <div>
+            <lablel for="experienceLevel">Select Experience Level</lablel>
+            <select id="experienceLevel" name="experienceLevel" placeholder="Select the Experience Level">
+                <option value="beginner">Beginner Level</option>
+                <option value="intermediate">Intermediate Level</option>
+                <option value="advanced">Advanced Level </option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="Readytopublish">Ready to publish the course ? </label>
+            <input type="checkbox" id="Readytopublish" name="Readytopublish" value="Ready to publish">
+            <br>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
